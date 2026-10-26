@@ -10,6 +10,12 @@ This repository documents my NetworkWalks Week 1 cybersecurity lab setup using K
 - **Network:** VirtualBox NAT Network
 - **Subnet:** `10.0.0.0/24`
 
+### Kali Linux Desktop
+
+Kali Linux running inside Oracle VirtualBox.
+
+![Kali Linux desktop]Images/kali-desktop.jpg)
+
 ## Setup and Configuration
 - Installed and configured Kali Linux in VirtualBox.
 - Configured the virtual network and verified internet connectivity.
@@ -30,6 +36,10 @@ After restarting the virtual machine, internet connectivity was lost.
 - Verified connectivity using `ping 8.8.8.8` and `ping google.com`.
 - Successfully ran `sudo apt update`.
 
+**Verification screenshot:**
+
+![Internet connectivity and successful apt update](Images/internet-connection.jpg)
+
 ### 2. Drag-and-Drop
 Drag-and-drop initially did not work despite enabling bidirectional mode.
 
@@ -38,6 +48,10 @@ Drag-and-drop initially did not work despite enabling bidirectional mode.
 - Verified VirtualBox Guest Additions modules.
 - Checked and restarted the VBoxClient drag-and-drop process.
 - Tested file transfers between Windows and Kali Linux.
+
+**Troubleshooting screenshot:**
+
+![VirtualBox Guest Additions and drag-and-drop troubleshooting](Images/drag-and-drop.jpg)
 
 File transfer was subsequently verified using the shared folder and drag-and-drop workflow.
 
