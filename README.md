@@ -14,7 +14,7 @@ This repository documents my NetworkWalks Week 1 cybersecurity lab setup using K
 
 Kali Linux running inside Oracle VirtualBox.
 
-![Kali Linux desktop]Images/kali-desktop.jpg)
+![Kali Linux desktop](Images/kali-desktop.jpg)
 
 ## Setup and Configuration
 - Installed and configured Kali Linux in VirtualBox.
