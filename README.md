@@ -22,6 +22,12 @@ The Kali Linux virtual machine is configured in Oracle VirtualBox with a virtual
 
 ![VirtualBox virtual machine configuration](Images/virtualbox-settings.jpg)
 
+### Network Configuration
+
+The Kali Linux virtual machine is connected to a VirtualBox  Network named `NatNetwork`. The network adapter is enabled, and the virtual cable is connected.
+
+![VirtualBox Network configuration](Images/network-settings.jpg)
+
 ## Setup and Configuration
 - Installed and configured Kali Linux in VirtualBox.
 - Configured the virtual network and verified internet connectivity.
