@@ -16,6 +16,12 @@ Kali Linux running inside Oracle VirtualBox.
 
 ![Kali Linux desktop](Images/kali-desktop.jpg)
 
+### VirtualBox Configuration
+
+The Kali Linux virtual machine is configured in Oracle VirtualBox with a virtual disk and a NAT Network adapter.
+
+![VirtualBox virtual machine configuration](Images/virtualbox-settings.jpg)
+
 ## Setup and Configuration
 - Installed and configured Kali Linux in VirtualBox.
 - Configured the virtual network and verified internet connectivity.
@@ -39,6 +45,12 @@ After restarting the virtual machine, internet connectivity was lost.
 **Verification screenshot:**
 
 ![Internet connectivity and successful apt update](Images/internet-connection.jpg)
+
+### Wired Connection Settings
+
+The wired connection was configured with an IPv4 address of `10.0.0.2/24`, gateway `10.0.0.1`, and DNS server `8.8.8.8`.
+
+![Wired connection IPv4 settings](Images/wired-connection-settings.jpg)
 
 ### 2. Drag-and-Drop
 Drag-and-drop initially did not work despite enabling bidirectional mode.
